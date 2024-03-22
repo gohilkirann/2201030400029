@@ -1,0 +1,110 @@
+Name - Gohil Kiran
+Roll Number - 27
+Enrollment Number - 2201030400029
+Division - B Batch-1
+College - SOCET
+Subject - Web Technelogy
+Domain - Customized book club generator : Connect readers based on their preffered genres and reading habits.
+
+Code in html and css style.
+
+(i) index.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Customized Book Club Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    select,
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: black;
+      padding: 14px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Customized Book Club Generator</h1>
+  <form action="#">
+    <label for="genre">Preferred Genre:</label>
+    <select id="genre" name="genre">
+      <option value="fantasy">Fantasy</option>
+      <option value="mystery">Mystery</option>
+      <option value="romance">Romance</option>
+      <option value="horror">Romance</option>
+      <option value="adveture">Romance</option>
+    </select>
+
+    <label for="reading-habits">Reading Habits:</label>
+    <input type="text" id="reading-habits" name="reading-habits" placeholder="Enter your reading habits">
+
+    <button type="submit">Generate Book Club</button>
+  </form>
+
+  <video width="320" height="240" controls>
+    <source src="path/to/video.mp4": 1.5;
+      margin-bottom: 1rem;
+    }
+    
+    .button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Customized Book Club Generator</h1
+
+(ii) style.css
+body {
+  margin: 20px;
+}
+   
+
+(iii) script.js
+console.log("from script file");
